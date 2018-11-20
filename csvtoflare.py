@@ -8,8 +8,6 @@ from sys import argv
 cluster = argv[1]
 fname = argv[2]
 
- 
-
 def fmt(d):
     l = []
     for (k,v) in d.items():
@@ -23,9 +21,7 @@ def fmt(d):
         l.append(j)
     return l
 
-
 # Build OrderedDict
-
 d1 = OrderedDict()
 row=[]
 
